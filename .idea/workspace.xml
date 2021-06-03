@@ -4,57 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OpenManageSystem.iml" beforeDir="false" />
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 3 项目初始化">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/Database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MyMetaObjectHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MyWebCrossOrgin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MyWebCrossOrgin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/controllerDemo/DeptController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/operate/controller/DeptController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/operate/entity/Dept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/operate/mapper/DeptMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/operate/mapper/xml/DeptMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/operate/service/DeptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/operate/service/impl/DeptServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/MyPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/MyToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/ResultResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/priv/ljh/OpenManageSystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/priv/ljh/OpenManageSystemApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +67,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -116,7 +80,7 @@
       </method>
     </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootback" />
+      <module name="OpenManageSystem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="priv.ljh.*" />
@@ -131,8 +95,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="OpenManageSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="OpenManageSystem" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenManageSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="OpenManageSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="priv.ljh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="priv.ljh.OpenManageSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OpenManageSystemApplication" />
         <item itemvalue="JUnit.OpenManageSystemApplicationTests.findAll" />
       </list>
     </recent_temporary>
@@ -145,11 +136,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622685813527</updated>
-      <workItem from="1622685817962" duration="301000" />
+      <workItem from="1622685817962" duration="606000" />
     </task>
+    <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
+      <created>1622686258697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622686258697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021 6 3 项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 3 项目初始化" />
   </component>
 </project>

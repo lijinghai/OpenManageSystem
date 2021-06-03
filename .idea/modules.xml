@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OpenManageSystem.iml" filepath="$PROJECT_DIR$/.idea/OpenManageSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootback.iml" filepath="$PROJECT_DIR$/springbootback.iml" />
     </modules>
   </component>
 </project>

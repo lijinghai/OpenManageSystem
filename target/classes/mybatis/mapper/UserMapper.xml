@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.UserMapper">
+
+    <!--查询所有的用户-->
+    <select id="queryAllUser" resultType="User">
+        select * from user;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryUserById" resultType="User">
+        select * from user where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addUser" parameterType="User">
+        insert into user (username, password,profession,article,phoneNum) values (#{username},#{password},#{profession},#{article},#{phoneNum})
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateUser" parameterType="User">
+        update user
+        set username = #{username},password =#{password},profession=#{profession},article=#{article},phoneNum=#{phoneNum}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteUserByID" parameterType="Integer">
+        delete from user where id = #{id};
+    </delete>
+</mapper>

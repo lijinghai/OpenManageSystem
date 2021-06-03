@@ -2,8 +2,6 @@ package priv.ljh.config;
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.env.Environment;
-import org.springframework.core.env.Profiles;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
@@ -31,14 +29,14 @@ public class MySwagger {
      * @return
      */
     @Bean
-    public Docket docket(Environment environment){
-//    public Docket docket(){
+//    public Docket docket(Environment environment){
+    public Docket docket(){
 
-       //设置Swagger要显示的环境
+ /*       //设置Swagger要显示的环境
         Profiles profiles = Profiles.of("dev");
         //获取项目的环境
         //通过environment.acceptsProfiles判断是否在自己设置的环境当中
-        boolean flag = environment.acceptsProfiles(profiles);
+        boolean flag = environment.acceptsProfiles(profiles);*/
 
 
         return new Docket(DocumentationType.SWAGGER_2)
@@ -55,7 +53,7 @@ public class MySwagger {
                 //none() 不扫描
                 // withClassAnnotation(***.class) 扫描类上的注解,参数是一个注解的反射对象
                 //withMethodAnnotation() 扫描方法上的注解
-                .apis(RequestHandlerSelectors.basePackage("priv.ljh.operate.controller"))
+                .apis(RequestHandlerSelectors.basePackage("priv.ljh.controller"))
                 //paths() 过滤什么路径
                 //.paths(PathSelectors.ant("/**/**"))
                 //build() 类似工厂模式
@@ -71,7 +69,7 @@ public class MySwagger {
         Contact contact = new Contact("李京海", "http://github.com/Dorian1015", "1503676492@qq.com");
         return new ApiInfo(
                 "李京海的SwaggerAPI文档",
-                "东道若逢相识问，青袍今已误儒生。",
+                "月光还是少年的月光，九州一色还是李白的霜。",
                 "v1.0",
                 "http://github.com/Dorian1015",
                 contact,

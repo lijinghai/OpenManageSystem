@@ -29,34 +29,14 @@ public class MySwagger {
      * @return
      */
     @Bean
-//    public Docket docket(Environment environment){
     public Docket docket(){
-
- /*       //设置Swagger要显示的环境
-        Profiles profiles = Profiles.of("dev");
-        //获取项目的环境
-        //通过environment.acceptsProfiles判断是否在自己设置的环境当中
-        boolean flag = environment.acceptsProfiles(profiles);*/
-
-
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 //配置分组 一个Docket 一个组
                 .groupName("李京海")
-                //enable(false) 是否自动开启Swagger false不能访问
-//                .enable(flag)
                 //Swagger配置扫描接口
                 .select()
-                //RequestHandlerSelectors ->配置扫描接口的方式
-                //basePackage() 指定要扫描的包
-                //any() 扫描全部
-                //none() 不扫描
-                // withClassAnnotation(***.class) 扫描类上的注解,参数是一个注解的反射对象
-                //withMethodAnnotation() 扫描方法上的注解
                 .apis(RequestHandlerSelectors.basePackage("priv.ljh.controller"))
-                //paths() 过滤什么路径
-                //.paths(PathSelectors.ant("/**/**"))
-                //build() 类似工厂模式
                 .build();
     }
 

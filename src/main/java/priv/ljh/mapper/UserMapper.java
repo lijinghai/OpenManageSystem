@@ -7,17 +7,18 @@ import org.springframework.stereotype.Repository;
 import priv.ljh.pojo.User;
 
 import java.util.List;
+import java.util.Map;
 
 /**
- * 用户类接口
+ * 用户管理表类接口
  * @Mapper 表示的是mybatis的mapper类
  * @author lijinghai
- * @Date 2021-1-19
+ * @Date 2021-6-4
  */
 
 @Mapper
 @Repository
-@ApiModel("用户实体接口类")
+@ApiModel("用户管理实体接口类")
 public interface UserMapper {
     /**
      * 增加一名用户
@@ -45,7 +46,7 @@ public interface UserMapper {
      * @param id
      * @return
      */
-    User queryUserById(int id);
+    List<Map> queryUserById(int id);
 
     /**
      * 查询所有的用户

@@ -18,13 +18,13 @@
 
     <!--添加一条数据-->
     <insert id="addUser" parameterType="User">
-        insert into user (username, password,profession,article,phoneNum) values (#{username},#{password},#{profession},#{article},#{phoneNum})
+        insert into user ( name, code, phone, email, role) values (#{name},#{code},#{phone},#{email},#{role})
     </insert>
 
     <!--更新一条数据-->
     <update id="updateUser" parameterType="User">
         update user
-        set username = #{username},password =#{password},profession=#{profession},article=#{article},phoneNum=#{phoneNum}
+        set name = #{username},code =#{code},phone=#{phone},email=#{email},role=#{role}
         where id = #{id};
     </update>
 

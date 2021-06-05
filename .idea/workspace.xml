@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 3 用户管理模块">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 3 层次管理模块">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Arrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Arrange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +150,7 @@
       <workItem from="1622685817962" duration="2567000" />
       <workItem from="1622785287618" duration="10661000" />
       <workItem from="1622798002185" duration="31000" />
-      <workItem from="1622871885824" duration="4013000" />
+      <workItem from="1622871885824" duration="5985000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -189,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622872245693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2021 6 3 层次管理模块">
+      <created>1622876196538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622876196538</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2021 6 3 项目初始化" />
     <MESSAGE value="2021 6 3 用户管理模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 3 用户管理模块" />
+    <MESSAGE value="2021 6 3 层次管理模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 3 层次管理模块" />
   </component>
 </project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.MajorMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllMajor" resultType="Major">
+        select * from major;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryMajorById" resultType="Major">
+        select * from major where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addMajor" parameterType="Major">
+        insert into major (major_code, major_name, major_note) values (#{major_code},#{major_name},#{major_note});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateMajor" parameterType="Major">
+        update major
+        set major_code = #{major_code},major_name =#{major_name},major_note =#{major_note}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteMajorByID" parameterType="Integer">
+        delete from major where id = #{id};
+    </delete>
+</mapper>

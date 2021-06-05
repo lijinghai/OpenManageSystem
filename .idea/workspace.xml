@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 资源分类管理模块">
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/RoleMapper.xml" afterDir="false" />
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 角色管理模块">
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/mapper/DictionaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/DictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/impl/DictionaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DictionaryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <workItem from="1622785287618" duration="10661000" />
       <workItem from="1622798002185" duration="31000" />
       <workItem from="1622871885824" duration="11678000" />
-      <workItem from="1622885086308" duration="675000" />
+      <workItem from="1622885086308" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -239,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622882822537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2021 6 5 角色管理模块">
+      <created>1622886082725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622886082725</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +272,7 @@
     <MESSAGE value="2021 6 5 学制管理模块" />
     <MESSAGE value="2021 6 5 课程类别管理模块" />
     <MESSAGE value="2021 6 5 资源分类管理模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 资源分类管理模块" />
+    <MESSAGE value="2021 6 5 角色管理模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 角色管理模块" />
   </component>
 </project>

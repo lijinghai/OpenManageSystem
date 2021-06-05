@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.DictionaryMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllDictionary" resultType="Dictionary">
+        select * from dictionary;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryDictionaryById" resultType="Dictionary">
+        select * from dictionary where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addDictionary" parameterType="Dictionary">
+        insert into dictionary (value, name, code, role, user) values (#{value},#{name},#{code},#{role},#{user});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateDictionary" parameterType="Dictionary">
+        update dictionary
+        set value = #{value},name =#{name},code =#{code},role =#{role},user =#{user}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteDictionaryByID" parameterType="Integer">
+        delete from dictionary where id = #{id};
+    </delete>
+</mapper>

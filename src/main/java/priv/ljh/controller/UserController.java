@@ -73,7 +73,7 @@ public class UserController {
 
     @ApiOperation("根据id查询信息")
     @GetMapping("/id")
-    public ResultResponse queryBladderDataById(@RequestParam("id") Integer id,@RequestParam("page") int pageNo, @RequestParam("limit") int limit, @RequestParam("sort") String idSort){
+    public ResultResponse queryUserById(@RequestParam("id") Integer id,@RequestParam("page") int pageNo, @RequestParam("limit") int limit, @RequestParam("sort") String idSort){
         ResultResponse res = null;
         List<Map> info = userMapper.queryUserById(id);
         log.info("info====>"+info);

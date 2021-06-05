@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.RoleMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllRole" resultType="Role">
+        select * from role;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryRoleById" resultType="Role">
+        select * from role where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addRole" parameterType="Role">
+        insert into role (role_code, role_name, state, name) values (#{role_code},#{role_name},#{state},#{name});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateRole" parameterType="Role">
+        update role
+        set role_code = #{role_code},role_name =#{role_name},state =#{state},name =#{name}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteRoleByID" parameterType="Integer">
+        delete from role where id = #{id};
+    </delete>
+</mapper>

@@ -2,13 +2,16 @@ package priv.ljh.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @Author lijinghai
@@ -27,9 +30,21 @@ public class Role implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @ApiModelProperty("层次代码")
-    private Integer arrange_code;
+    @ApiModelProperty("角色编码")
+    private Integer role_code;
 
-    @ApiModelProperty("层次名称")
-    private String arrange_name;
+    @ApiModelProperty("角色名称")
+    private String role_name;
+
+    @ApiModelProperty("状态")
+    private String state ;
+
+    @ApiModelProperty("创建人")
+    private String name;
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    @ApiModelProperty(value = "修改日期")
+    private Date date;
+
 }

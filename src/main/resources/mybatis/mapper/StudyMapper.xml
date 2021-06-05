@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.StudyMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllStudy" resultType="Study">
+        select * from study;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryStudyById" resultType="Study">
+        select * from study where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addStudy" parameterType="Study">
+        insert into study (study_code, study_name) values (#{study_code},#{study_name});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateStudy" parameterType="Study">
+        update study
+        set study_code = #{study_code},study_name =#{study_name}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteStudyByID" parameterType="Integer">
+        delete from study where id = #{id};
+    </delete>
+</mapper>

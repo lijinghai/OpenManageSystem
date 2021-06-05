@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.EducateMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllEducate" resultType="Educate">
+        select * from educate;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryEducateById" resultType="Educate">
+        select * from educate where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addEducate" parameterType="Educate">
+        insert into educate (code) values (#{code});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateEducate" parameterType="Educate">
+        update educate
+        set code = #{code}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteEducateByID" parameterType="Integer">
+        delete from educate where id = #{id};
+    </delete>
+</mapper>

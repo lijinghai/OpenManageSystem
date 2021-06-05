@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 专业管理模块">
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/controller/StudyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Study.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/StudyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/impl/StudyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/StudyMapper.xml" afterDir="false" />
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 学习形式模块">
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/controller/EducateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/mapper/EducateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Educate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/EducateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/service/impl/EducateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/EducateMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,7 @@
       <workItem from="1622685817962" duration="2567000" />
       <workItem from="1622785287618" duration="10661000" />
       <workItem from="1622798002185" duration="31000" />
-      <workItem from="1622871885824" duration="7108000" />
+      <workItem from="1622871885824" duration="8199000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622877971701</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2021 6 5 学习形式模块">
+      <created>1622879329710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622879329711</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +237,7 @@
     <MESSAGE value="2021 6 3 用户管理模块" />
     <MESSAGE value="2021 6 3 层次管理模块" />
     <MESSAGE value="2021 6 5 专业管理模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 专业管理模块" />
+    <MESSAGE value="2021 6 5 学习形式模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 学习形式模块" />
   </component>
 </project>

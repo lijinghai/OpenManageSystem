@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.ResourceMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllResource" resultType="Resource">
+        select * from resource;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryResourceById" resultType="Resource">
+        select * from resource where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addResource" parameterType="Resource">
+        insert into resource (resource_code, resource_name) values (#{resource_code},#{resource_name});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateResource" parameterType="Resource">
+        update resource
+        set resource_code = #{resource_code},resource_name =#{resource_name}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteResourceByID" parameterType="Integer">
+        delete from resource where id = #{id};
+    </delete>
+</mapper>

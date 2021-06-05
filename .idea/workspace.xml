@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 系统日志管理模块">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fdfs_client.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenManageSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenManageSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 JWT令牌机制">
       <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MyWebCrossOrgin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MyWebCrossOrgin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +168,7 @@
       <workItem from="1622798002185" duration="31000" />
       <workItem from="1622871885824" duration="11678000" />
       <workItem from="1622885086308" duration="5121000" />
-      <workItem from="1622890329554" duration="6983000" />
+      <workItem from="1622890329554" duration="7269000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -275,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622889605514</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2021 6 5 JWT令牌机制">
+      <created>1622900153998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622900153998</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +305,8 @@
     <MESSAGE value="2021 6 5 角色管理模块" />
     <MESSAGE value="2021 6 5 字典管理模块" />
     <MESSAGE value="2021 6 5 系统日志管理模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 系统日志管理模块" />
+    <MESSAGE value="2021 6 5 JWT令牌机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 JWT令牌机制" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

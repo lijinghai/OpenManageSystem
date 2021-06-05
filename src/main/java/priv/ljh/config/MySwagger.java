@@ -36,10 +36,10 @@ public class MySwagger {
 //    public Docket docket(){
 
        //设置Swagger要显示的环境
-//        Profiles profiles = Profiles.of("dev");
+        Profiles profiles = Profiles.of("dev");
         //获取项目的环境
         //通过environment.acceptsProfiles判断是否在自己设置的环境当中
-//        boolean flag = environment.acceptsProfiles(profiles);
+        boolean flag = environment.acceptsProfiles(profiles);
 
 
         return new Docket(DocumentationType.SWAGGER_2)
@@ -58,9 +58,8 @@ public class MySwagger {
                 //withMethodAnnotation() 扫描方法上的注解
                 //.apis(RequestHandlerSelectors.basePackage("priv.ljh.operate.controller"))
                 .apis(Predicates.or(
+                        RequestHandlerSelectors.basePackage("priv.ljh.controller"),
                         RequestHandlerSelectors.basePackage("priv.ljh.operate.controller"),
-                        RequestHandlerSelectors.basePackage("priv.ljh.uniapp.controller"),
-                        RequestHandlerSelectors.basePackage("priv.ljh.pc.controller"),
                         RequestHandlerSelectors.basePackage("priv.ljh.utils")
                 ))
                 //paths() 过滤什么路径

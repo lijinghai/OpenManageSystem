@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定-->
+<mapper namespace="priv.ljh.mapper.LogMapper">
+
+    <!--查询所有的信息-->
+    <select id="queryAllLog" resultType="Log">
+        select * from log;
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryLogById" resultType="Log">
+        select * from log where id =#{id}
+    </select>
+
+    <!--添加一条数据-->
+    <insert id="addLog" parameterType="Log">
+        insert into log (method, param, route, result, name) values (#{method},#{param},#{route},#{result},#{name});
+    </insert>
+
+    <!--更新一条数据-->
+    <update id="updateLog" parameterType="Log">
+        update log
+        set param = #{param},param =#{param},route = #{route},result =#{result},name = #{name}
+        where id = #{id};
+    </update>
+
+    <!--删除一条信息-->
+    <delete id="deleteLogByID" parameterType="Integer">
+        delete from log where id = #{id};
+    </delete>
+</mapper>

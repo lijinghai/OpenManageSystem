@@ -27,3 +27,23 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+    redis:
+      host: 192.168.147.172 #服务器ip地址
+      port: 6379 #端⼝号
+      database: 0 #16个数据库使⽤哪个数据库
+      password: 123456 #密码
+
+      fastdfs:
+        racker_server: http://127.0.01/
+
+
+# 跨域问题
+allowed:
+  origin: http://localhost:8090
+
+allowed1:
+  origin1: http://localhost:8080
+
+allowed2:
+  origin2: http://localhost:8093

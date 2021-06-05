@@ -21,8 +21,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -43,8 +43,6 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.4.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.4" level="project" />
@@ -119,6 +117,34 @@
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-extension:3.3.2" level="project" />
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-core:3.3.2" level="project" />
     <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:3.1" level="project" />
-    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.auth0:java-jwt:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: fastdfs:client-java:1.27-SNAPSHOT">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/fastdfs-client-java-1.27-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: io.lettuce:lettuce-core:6.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
   </component>
 </module>

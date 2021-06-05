@@ -125,6 +125,37 @@
             <version>5.5.4</version>
         </dependency>
 
+        <!--JWT-->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.3.4</version>
+        </dependency>
+
+        <!--fastdfs⽂件服务-->
+        <dependency>
+            <groupId>fastdfs</groupId>
+            <artifactId>client-java</artifactId>
+            <version>1.27-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/fastdfs-client-java-1.27-SNAPSHOT.jar</systemPath>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.oschina.zcx7878</groupId>-->
+<!--            <artifactId>fastdfs-client-java</artifactId>-->
+<!--            <version>1.27.0.0</version>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

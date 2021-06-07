@@ -34,9 +34,6 @@ public class Log implements Serializable {
     private String method;
 
     @ApiModelProperty("请求参数")
-    private String arrange_name;
-
-    @ApiModelProperty("层次名称")
     private String param;
 
     @ApiModelProperty("请求路径")

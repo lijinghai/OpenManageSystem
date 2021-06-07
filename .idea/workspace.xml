@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 7 sql文件">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 7 专业控制管理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Major.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Major.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/MajorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/MajorMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +170,7 @@
       <workItem from="1622885086308" duration="5121000" />
       <workItem from="1622890329554" duration="9759000" />
       <workItem from="1622959408219" duration="787000" />
-      <workItem from="1623024981366" duration="2580000" />
+      <workItem from="1623024981366" duration="4010000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -300,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623026680501</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2021 6 7 专业控制管理">
+      <created>1623028057730</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1623028057730</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +339,8 @@
     <MESSAGE value="2021 6 5 Swagger2的配置" />
     <MESSAGE value="2021 6 7 Swagger2的配置" />
     <MESSAGE value="2021 6 7 sql文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 7 sql文件" />
+    <MESSAGE value="2021 6 7 专业控制管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 7 专业控制管理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

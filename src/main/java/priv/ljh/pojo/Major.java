@@ -34,6 +34,9 @@ public class Major implements Serializable {
     @ApiModelProperty("专业名称")
     private String major_name;
 
+    @ApiModelProperty("层次")
+    private String level;
+
     @ApiModelProperty("备注")
     private String major_note;
 

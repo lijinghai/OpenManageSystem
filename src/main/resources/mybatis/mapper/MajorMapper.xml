@@ -18,13 +18,13 @@
 
     <!--添加一条数据-->
     <insert id="addMajor" parameterType="Major">
-        insert into major (major_code, major_name, major_note) values (#{major_code},#{major_name},#{major_note});
+        insert into major (major_code, major_name,level, major_note) values (#{major_code},#{major_name},#{major_note},#{level});
     </insert>
 
     <!--更新一条数据-->
     <update id="updateMajor" parameterType="Major">
         update major
-        set major_code = #{major_code},major_name =#{major_name},major_note =#{major_note}
+        set major_code = #{major_code},major_name =#{major_name},level = #{level},major_note =#{major_note}
         where id = #{id};
     </update>
 

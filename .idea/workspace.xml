@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 JWT令牌机制">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 5 Swagger2的配置">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,17 +109,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenManageSystem" />
       <extension name="coverage">
@@ -168,7 +158,9 @@
       <workItem from="1622798002185" duration="31000" />
       <workItem from="1622871885824" duration="11678000" />
       <workItem from="1622885086308" duration="5121000" />
-      <workItem from="1622890329554" duration="7269000" />
+      <workItem from="1622890329554" duration="9759000" />
+      <workItem from="1622959408219" duration="787000" />
+      <workItem from="1623024981366" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -275,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622900153998</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2021 6 5 Swagger2的配置">
+      <created>1622901718696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622901718696</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +305,8 @@
     <MESSAGE value="2021 6 5 字典管理模块" />
     <MESSAGE value="2021 6 5 系统日志管理模块" />
     <MESSAGE value="2021 6 5 JWT令牌机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 JWT令牌机制" />
+    <MESSAGE value="2021 6 5 Swagger2的配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 5 Swagger2的配置" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

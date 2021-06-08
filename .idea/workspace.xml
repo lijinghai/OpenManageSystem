@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 7 日志管理">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 8 使用FastDfs实现文件上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenManageSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenManageSystem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDFSFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDFSFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +83,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/priv/ljh/utils/redis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -103,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh\utils\redis" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\sql" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh\config" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh\utils" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh" />
-      <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="priv.ljh.utils" />
@@ -115,6 +111,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenManageSystem" />
       <extension name="coverage">
@@ -170,7 +177,7 @@
       <workItem from="1623058320129" duration="403000" />
       <workItem from="1623071788462" duration="216000" />
       <workItem from="1623139192980" duration="307000" />
-      <workItem from="1623154820263" duration="2265000" />
+      <workItem from="1623154820263" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -319,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623036222527</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2021 6 8 使用FastDfs实现文件上传">
+      <created>1623158211680</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1623158211681</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +370,8 @@
     <MESSAGE value="2021 6 7 专业控制管理" />
     <MESSAGE value="2021 6 7 用户管理" />
     <MESSAGE value="2021 6 7 日志管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 7 日志管理" />
+    <MESSAGE value="2021 6 8 使用FastDfs实现文件上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 8 使用FastDfs实现文件上传" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

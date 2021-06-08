@@ -138,13 +138,18 @@
         </dependency>
 
         <!--fastdfs⽂件服务-->
-        <!--fastdfs⽂件服务-->
         <dependency>
             <groupId>fastdfs</groupId>
             <artifactId>client-java</artifactId>
             <version>1.27-SNAPSHOT</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/fastdfs-client-java-1.27-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <!--使⽤session共享实现登陆-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
         </dependency>
 
         <dependency>

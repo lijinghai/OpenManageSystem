@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 7 用户管理">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 7 日志管理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/pojo/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDFSFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDFSFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FastDfsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/fastDFS/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,17 +115,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenManageSystem" />
       <extension name="coverage">
@@ -171,7 +166,11 @@
       <workItem from="1622885086308" duration="5121000" />
       <workItem from="1622890329554" duration="9759000" />
       <workItem from="1622959408219" duration="787000" />
-      <workItem from="1623024981366" duration="5768000" />
+      <workItem from="1623024981366" duration="6426000" />
+      <workItem from="1623058320129" duration="403000" />
+      <workItem from="1623071788462" duration="216000" />
+      <workItem from="1623139192980" duration="307000" />
+      <workItem from="1623154820263" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623033394100</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2021 6 7 日志管理">
+      <created>1623036222512</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1623036222527</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +355,8 @@
     <MESSAGE value="2021 6 7 sql文件" />
     <MESSAGE value="2021 6 7 专业控制管理" />
     <MESSAGE value="2021 6 7 用户管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 7 用户管理" />
+    <MESSAGE value="2021 6 7 日志管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 7 日志管理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

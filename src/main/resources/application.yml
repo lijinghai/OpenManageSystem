@@ -72,12 +72,18 @@ fastdfs:
 #移除指定端口：
 #firewall-cmd --permanent --remove-port=123/tcp
 
+# redis.conf中的bind的配置，
+#将bind 127.0.0.1 改为 bind 0.0.0.0 即所有地址均可连接
+# 让这个配置文件生效!
+# source /etc/profile
+
 # 启动redis 终端启动服务和测试
 # cd src
 #./redis-server
 
 redis:
-  host: 192.168.43.128  #服务器ip地址
+#  host: 10.203.84.178  #服务器ip地址 虚拟机
+  host: 127.0.0.1  #服务器ip地址 本机
   port: 6379 #端⼝号
   database: 0 #16个数据库使⽤哪个数据库
   password: 123456 #密码

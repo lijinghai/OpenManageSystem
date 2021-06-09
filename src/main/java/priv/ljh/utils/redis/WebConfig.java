@@ -14,9 +14,9 @@ public class WebConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new AccessHandler())
                 //添加需要进⾏拦截的链接
-                .addPathPatterns("/**")
+//                .addPathPatterns("/**")
                 //排除不需要拦截的链接，多个链接直接⽤逗号隔开
-                .excludePathPatterns("/person/login");
+                .excludePathPatterns("/**");
         System.out.println("=========== 拦截器注册完毕 ===========");
     }
 }

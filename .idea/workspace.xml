@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 8 使用redis实现登陆共享与登陆拦截">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 9 使用redis实现登陆共享与登陆拦截">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenManageSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenManageSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/redis/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/utils/redis/WebConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +111,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenManageSystem" />
       <extension name="coverage">
@@ -165,7 +180,7 @@
       <workItem from="1623071788462" duration="216000" />
       <workItem from="1623139192980" duration="307000" />
       <workItem from="1623154820263" duration="8515000" />
-      <workItem from="1623219438319" duration="4038000" />
+      <workItem from="1623219438319" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -328,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623164273206</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2021 6 9 使用redis实现登陆共享与登陆拦截">
+      <created>1623223835060</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1623223835060</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +389,8 @@
     <MESSAGE value="2021 6 7 日志管理" />
     <MESSAGE value="2021 6 8 使用FastDfs实现文件上传" />
     <MESSAGE value="2021 6 8 使用redis实现登陆共享与登陆拦截" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 8 使用redis实现登陆共享与登陆拦截" />
+    <MESSAGE value="2021 6 9 使用redis实现登陆共享与登陆拦截" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 9 使用redis实现登陆共享与登陆拦截" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

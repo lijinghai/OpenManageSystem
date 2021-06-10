@@ -6,6 +6,50 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
+
+    # 使用redis实现登陆共享与登陆拦截
+    # firewall-cmd --zone=public --add-port=6379/tcp --permanent
+    # 1.查看对外开放的端口
+    #查询已开放的端口 netstat -anp
+    #查询指定端口是否已开 firewall-cmd --query-port=666/tcp
+    #提示 yes，表示开启；no表示未开启。
+    #
+    #2.查看防火墙状态
+    #查看防火墙状态 systemctl status firewalld
+    #开启防火墙 systemctl start firewalld或service firewalld start
+    #关闭防火墙 systemctl stop firewalld
+    #若遇到无法开启
+    #先用：systemctl unmask firewalld.service
+    #然后systemctl start firewalld.service
+    #
+    #3.对外开发端口
+    #查看想开的端口是否已开：
+    #firewall-cmd --query-port=6379/tcp
+    #添加指定需要开放的端口：
+    #firewall-cmd --add-port=123/tcp --permanent
+    #重载入添加的端口：
+    #firewall-cmd --reload
+    #查询指定端口是否开启成功：
+    #firewall-cmd --query-port=123/tcp
+    #移除指定端口：
+    #firewall-cmd --permanent --remove-port=123/tcp
+
+    # redis.conf中的bind的配置，
+    #将bind 127.0.0.1 改为 bind 0.0.0.0 即所有地址均可连接
+    # 让这个配置文件生效!
+    # source /etc/profile
+
+    # 启动redis 终端启动服务和测试
+    # cd src
+    #./redis-server
+
+  redis:
+    host: 10.0.33.236   #服务器ip地址 虚拟机
+    #  host: 127.0.0.1  #服务器ip地址 本机
+    port: 6379 #端⼝号
+    database: 0 #16个数据库使⽤哪个数据库
+    password: 101599 #密码
+
     #Spring Boot 默认是不注入这些属性值的，需要自己绑定
     #druid 数据源专有配置
     initialSize: 5
@@ -45,45 +89,5 @@ fastdfs:
   racker_server: http://42.192.231.74/
 
 
-# 使用redis实现登陆共享与登陆拦截
-# firewall-cmd --zone=public --add-port=6379/tcp --permanent
-# 1.查看对外开放的端口
-#查询已开放的端口 netstat -anp
-#查询指定端口是否已开 firewall-cmd --query-port=666/tcp
-#提示 yes，表示开启；no表示未开启。
-#
-#2.查看防火墙状态
-#查看防火墙状态 systemctl status firewalld
-#开启防火墙 systemctl start firewalld或service firewalld start
-#关闭防火墙 systemctl stop firewalld
-#若遇到无法开启
-#先用：systemctl unmask firewalld.service
-#然后systemctl start firewalld.service
-#
-#3.对外开发端口
-#查看想开的端口是否已开：
-#firewall-cmd --query-port=6379/tcp
-#添加指定需要开放的端口：
-#firewall-cmd --add-port=123/tcp --permanent
-#重载入添加的端口：
-#firewall-cmd --reload
-#查询指定端口是否开启成功：
-#firewall-cmd --query-port=123/tcp
-#移除指定端口：
-#firewall-cmd --permanent --remove-port=123/tcp
 
-# redis.conf中的bind的配置，
-#将bind 127.0.0.1 改为 bind 0.0.0.0 即所有地址均可连接
-# 让这个配置文件生效!
-# source /etc/profile
 
-# 启动redis 终端启动服务和测试
-# cd src
-#./redis-server
-
-redis:
-#  host: 10.203.84.178  #服务器ip地址 虚拟机
-  host: 127.0.0.1  #服务器ip地址 本机
-  port: 6379 #端⼝号
-  database: 0 #16个数据库使⽤哪个数据库
-  password: 123456 #密码

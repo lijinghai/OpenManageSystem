@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 10 使用redis实现登陆共享与登陆拦截">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 11 项目说明">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,8 @@
       <workItem from="1623219438319" duration="6002000" />
       <workItem from="1623283828522" duration="4138000" />
       <workItem from="1623392714839" duration="1704000" />
-      <workItem from="1623399182906" duration="971000" />
+      <workItem from="1623399182906" duration="1147000" />
+      <workItem from="1623415972626" duration="1244000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -352,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623288296442</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2021 6 11 项目说明">
+      <created>1623400470232</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1623400470232</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +402,8 @@
     <MESSAGE value="2021 6 9 使用redis实现登陆共享与登陆拦截" />
     <MESSAGE value="2021 6 9 使用AspectJ实现日志的自动添加" />
     <MESSAGE value="2021 6 10 使用redis实现登陆共享与登陆拦截" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 10 使用redis实现登陆共享与登陆拦截" />
+    <MESSAGE value="2021 6 11 项目说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 11 项目说明" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

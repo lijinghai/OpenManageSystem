@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 11 redis配置修改">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 16 redis配置修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +170,9 @@
       <workItem from="1623399182906" duration="1147000" />
       <workItem from="1623415972626" duration="1983000" />
       <workItem from="1623809973373" duration="1335000" />
+      <workItem from="1623812233866" duration="46000" />
+      <workItem from="1623812454743" duration="2000" />
+      <workItem from="1623812462830" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -368,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623417333190</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2021 6 16 redis配置修改">
+      <created>1623812263703</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1623812263703</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021 6 3 项目初始化" />
     <MESSAGE value="2021 6 3 用户管理模块" />
     <MESSAGE value="2021 6 3 层次管理模块" />
     <MESSAGE value="2021 6 5 专业管理模块" />
@@ -412,7 +420,8 @@
     <MESSAGE value="2021 6 10 使用redis实现登陆共享与登陆拦截" />
     <MESSAGE value="2021 6 11 项目说明" />
     <MESSAGE value="2021 6 11 redis配置修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 11 redis配置修改" />
+    <MESSAGE value="2021 6 16 redis配置修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 16 redis配置修改" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

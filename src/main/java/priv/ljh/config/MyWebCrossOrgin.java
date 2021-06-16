@@ -12,11 +12,8 @@ import org.springframework.web.filter.CorsFilter;
 /**
  * 处理前后端跨域问题
  * @author lijinghai
-<<<<<<< HEAD
- * @Date 2021-1-26
-=======
- * @Date 2021-1-27
->>>>>>> dev
+ * @Date 2021-6-16
+ * @Email lijinghailjh@163.com
  */
 @Configuration
 @Slf4j

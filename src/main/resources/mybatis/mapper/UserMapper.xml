@@ -32,4 +32,10 @@
     <delete id="deleteUserByID" parameterType="Integer">
         delete from user where id = #{id};
     </delete>
+
+    <!--判断用户名是否存在-->
+    <select id="selectCount"  resultType="Integer">
+        select count(*) from user where name = #{name};
+    </select>
+
 </mapper>

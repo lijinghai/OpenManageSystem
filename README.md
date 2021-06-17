@@ -101,18 +101,42 @@ web管理端code地址:  https://github.com/Dorian1015/OpenManageSystem-web
 
 ## 功能模块
 
-#### 后台管理系统(WarmSearch-web)
+#### 后端部分(Springboot + mybatis + Java web token)
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/后端页面1.png)
+
+
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/后端页面2.png)
+
+#### Swagger2页面
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/swagger1.png)
+
+
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/swagger21.png)
+
+#### 前端代码结构（vue)
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/前端1.png)
+
+
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/前端2.png)
 
 - #### 登录页面展示
 
-
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/登录1.png)
 
 - #### 首页页面展示
 
-
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/首页.png)
 - #### 部分功能页面展示
 
-
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/层次管理.png)
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/添加.png)
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/编辑.png)
 
 
 

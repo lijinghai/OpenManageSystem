@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 17 修改pom依赖">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 17 项目说明">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,7 @@
       <workItem from="1623813222866" duration="634000" />
       <workItem from="1623838727881" duration="3816000" />
       <workItem from="1623843041479" duration="192000" />
-      <workItem from="1623889693914" duration="3822000" />
+      <workItem from="1623889693914" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -402,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623891431869</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="2021 6 17 项目说明">
+      <created>1623896208205</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1623896208205</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +429,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021 6 5 学习形式模块" />
     <MESSAGE value="2021 6 5 学制管理模块" />
     <MESSAGE value="2021 6 5 课程类别管理模块" />
     <MESSAGE value="2021 6 5 资源分类管理模块" />
@@ -446,7 +453,8 @@
     <MESSAGE value="2021 6 16 处理前后端跨域问题" />
     <MESSAGE value="2021 6 19 插入数据库某个字段之前判断是否重复" />
     <MESSAGE value="2021 6 17 修改pom依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 6 17 修改pom依赖" />
+    <MESSAGE value="2021 6 17 项目说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 6 17 项目说明" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

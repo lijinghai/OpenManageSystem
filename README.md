@@ -135,7 +135,9 @@ web管理端code地址:  https://github.com/Dorian1015/OpenManageSystem-web
 - #### 部分功能页面展示
 
 ![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/层次管理.png)
+- #### 添加
 ![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/添加.png)
+- #### 编辑功能
 ![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/编辑.png)
 
 

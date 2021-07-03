@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 7 3 Swagger2配置" />
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 7 3 log配置">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +83,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/priv/ljh/utils/redis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -94,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\resources" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh\utils\redis" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\sql" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh\config" />
       <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh\utils" />
-      <recent name="D:\Desktop\实训20210603\code\black\OpenManageSystem\src\main\java\priv\ljh" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="priv.ljh.utils" />
@@ -194,7 +199,7 @@
       <workItem from="1625206979724" duration="352000" />
       <workItem from="1625207499839" duration="5000" />
       <workItem from="1625214299842" duration="847000" />
-      <workItem from="1625271901076" duration="280000" />
+      <workItem from="1625271901076" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -441,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625272127500</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="2021 7 3 log配置">
+      <created>1625272227786</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1625272227786</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021 6 5 课程类别管理模块" />
     <MESSAGE value="2021 6 5 资源分类管理模块" />
     <MESSAGE value="2021 6 5 角色管理模块" />
     <MESSAGE value="2021 6 5 字典管理模块" />
@@ -485,7 +496,8 @@
     <MESSAGE value="2021 6 17 修改pom依赖" />
     <MESSAGE value="2021 6 17 项目说明" />
     <MESSAGE value="2021 7 3 Swagger2配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 7 3 Swagger2配置" />
+    <MESSAGE value="2021 7 3 log配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 7 3 log配置" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -74,9 +74,9 @@ public class MySwagger {
      */
     public ApiInfo apiInfo(){
         //作者信息
-        Contact contact = new Contact("李京海", "http://github.com/Dorian1015", "1503676492@qq.com");
+        Contact contact = new Contact("李京海", "http://github.com/Dorian1015", "lijinghailjh@163.com");
         return new ApiInfo(
-                "李京海的SwaggerAPI文档（2021 6 3 大二实训 - 东软开放平台)",
+                "李京海的SwaggerAPI文档（2021 6 3 ---7 3 大二实训 - 东软开放大学)",
                 "东道若逢相识问，青袍今已误儒生。",
                 "v1.0",
                 "http://github.com/Dorian1015",

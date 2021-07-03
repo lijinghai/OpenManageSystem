@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 6 17 项目说明">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +108,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenManageSystem" />
       <extension name="coverage">
@@ -177,7 +187,15 @@
       <workItem from="1623813222866" duration="634000" />
       <workItem from="1623838727881" duration="3816000" />
       <workItem from="1623843041479" duration="192000" />
-      <workItem from="1623889693914" duration="3851000" />
+      <workItem from="1623889693914" duration="4085000" />
+      <workItem from="1623948118051" duration="482000" />
+      <workItem from="1623986757524" duration="2303000" />
+      <workItem from="1624022413916" duration="546000" />
+      <workItem from="1624023805416" duration="564000" />
+      <workItem from="1625127090038" duration="25000" />
+      <workItem from="1625206979724" duration="352000" />
+      <workItem from="1625207499839" duration="5000" />
+      <workItem from="1625214299842" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -410,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623896208205</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2021 6 17 项目说明">
+      <created>1623896403088</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1623896403088</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

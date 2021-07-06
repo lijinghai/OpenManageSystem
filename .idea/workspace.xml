@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 7 3 yml配置">
+    <list default="true" id="c078abc7-57c6-4a8b-9ce5-76d74ebd208f" name="Default Changelist" comment="2021 7 6 项目说明">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/ljh/config/MySwagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +111,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OpenManageSystemApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenManageSystemApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenManageSystem" />
       <extension name="coverage">
@@ -187,6 +203,8 @@
       <workItem from="1625214299842" duration="847000" />
       <workItem from="1625271901076" duration="4047000" />
       <workItem from="1625444466376" duration="776000" />
+      <workItem from="1625560851201" duration="102000" />
+      <workItem from="1625577527978" duration="1328000" />
     </task>
     <task id="LOCAL-00001" summary="2021 6 3 项目初始化">
       <created>1622686258697</created>
@@ -447,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625273335439</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="2021 7 6 项目说明">
+      <created>1625560944381</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1625560944381</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021 6 5 角色管理模块" />
     <MESSAGE value="2021 6 5 字典管理模块" />
     <MESSAGE value="2021 6 5 系统日志管理模块" />
     <MESSAGE value="2021 6 5 JWT令牌机制" />
@@ -491,7 +515,8 @@
     <MESSAGE value="2021 7 3 Swagger2配置" />
     <MESSAGE value="2021 7 3 log配置" />
     <MESSAGE value="2021 7 3 yml配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021 7 3 yml配置" />
+    <MESSAGE value="2021 7 6 项目说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021 7 6 项目说明" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -76,8 +76,8 @@ public class MySwagger {
         //作者信息
         Contact contact = new Contact("李京海", "http://github.com/Dorian1015", "lijinghailjh@163.com");
         return new ApiInfo(
-                "李京海的SwaggerAPI文档（2021 6 3 ---7 3 大二实训 - 东软开放大学)",
-                "东道若逢相识问，青袍今已误儒生。",
+                "李京海的Swagger2_API文档（2021 7 3 大二实训 - 东软开放大学)",
+                "鲜花怒马少年时，一日看尽长安花。",
                 "v1.0",
                 "http://github.com/Dorian1015",
                 contact,
@@ -87,8 +87,9 @@ public class MySwagger {
     }
 
 
-    @Bean
-    public Docket docket2(){
-        return new Docket(DocumentationType.SWAGGER_2).groupName("default");
-    }
+//    @Bean
+//    public Docket docket2(){
+//        return new Docket(DocumentationType.SWAGGER_2).groupName("default");
+//    }
+
 }

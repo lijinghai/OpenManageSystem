@@ -1,8 +1,10 @@
 spring:
   datasource:
     username: root
-    password: 101599
-    url: jdbc:mysql://localhost:3306/opensystem?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+#    password: 101599
+    password: '@Wxyabyt888'
+#    url: jdbc:mysql://localhost:3306/opensystem?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://42.192.231.74:3308/opensystem?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
@@ -47,10 +49,14 @@ spring:
   redis:
 #    host: 10.0.33.236   #服务器ip地址 虚拟机 教室
 #    host: 10.203.84.178 #宿舍
-    host: 127.0.0.1  #服务器ip地址 本机
+#    host: 127.0.0.1  #服务器ip地址 本机
+    host: 42.192.231.74
     port: 6379 #端⼝号
     database: 0 #16个数据库使⽤哪个数据库
 #    password: 101599 #密码
+    password: '@Wxyabyt888'
+
+
 
     #Spring Boot 默认是不注入这些属性值的，需要自己绑定
     #druid 数据源专有配置
@@ -88,6 +94,7 @@ allowed2:
 
 # 使用FastDfs实现文件上传
 fastdfs:
+#  racker_server: http://42.192.231.74/
   racker_server: http://42.192.231.74/
 
 
